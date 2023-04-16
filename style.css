@@ -1,0 +1,49 @@
+/* ui: https://uidesigndaily.com/posts/sketch-countdown-timer-day-876 */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("https://img.freepik.com/free-photo/bow-bridge-central-park-winter-midtown-manhattan-new-york-city_649448-4796.jpg?w=996&t=st=1681312116~exp=1681312716~hmac=466c49a24f055baaab4dd1c43677d83b551d3e6c0271a93882147f0da6b9913e");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+h1 {
+    margin: 5rem auto 3rem auto;
+    font-weight: normal;
+    font-size: 4rem;
+}
+
+.counterdown-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.count-el {
+    text-align: center;
+}
+
+.big {
+    font-size: 6rem;
+    margin: 1rem 2rem;
+    line-height: 1;
+    font-weight: bold;
+}
+
+.count-el span {
+    font-size: 2rem;
+}
